@@ -58,3 +58,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+/e2e/report-android
+/e2e/report-iphone
+/e2e/report-ipad
