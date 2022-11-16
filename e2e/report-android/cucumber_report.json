@@ -1,0 +1,121 @@
+[
+  {
+    "description": "    Try cucumber with detox",
+    "elements": [
+      {
+        "description": "",
+        "id": "android---initial-cucumber-test;android---test-cucumber",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Android - Test Cucumber",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am login as 'ULP_AGENT'",
+            "match": {
+              "location": "step_definitions/common/given.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "android---initial-cucumber-test;android---test-cucumber---2",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Android - Test Cucumber - 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "step_definitions/common/given.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "step_definitions/common/then.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "android---initial-cucumber-test",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Android - Initial Cucumber Test",
+    "tags": [
+      {
+        "name": "@android",
+        "line": 1
+      }
+    ],
+    "uri": "features/testAndroid/testAndroid.feature"
+  }
+]

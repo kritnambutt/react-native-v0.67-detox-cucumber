@@ -1,0 +1,92 @@
+[
+  {
+    "description": "    Try cucumber with detox",
+    "elements": [
+      {
+        "description": "",
+        "id": "initial-cucumber-test;test-cucumber",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Test Cucumber",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20232532166
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120212000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "e2e/features/support/find.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48981333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "e2e/features/support/find.step.js:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13255459
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1540333
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11816540
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "initial-cucumber-test",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Initial Cucumber Test",
+    "tags": [
+      {
+        "name": "@iphone",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/features/first.feature"
+  }
+]

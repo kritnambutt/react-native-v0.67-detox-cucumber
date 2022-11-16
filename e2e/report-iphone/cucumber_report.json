@@ -1,0 +1,408 @@
+[
+  {
+    "description": "    Try cucumber with detox",
+    "elements": [
+      {
+        "description": "",
+        "id": "iphone---initial-cucumber-test;iphone---test-cucumber",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Iphone - Test Cucumber",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am login as 'ULP_AGENT'",
+            "match": {
+              "location": "step_definitions/common/given.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@AP00",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "iphone---initial-cucumber-test;iphone---test-cucumber---2",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Iphone - Test Cucumber - 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "step_definitions/common/given.js:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "step_definitions/common/then.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@AP00",
+            "line": 1
+          },
+          {
+            "name": "@skip",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "iphone---initial-cucumber-test;iphone---test-cucumber---3",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Iphone - Test Cucumber - 3",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "step_definitions/common/given.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "step_definitions/common/then.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@AP00",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "iphone---initial-cucumber-test",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Iphone - Initial Cucumber Test",
+    "tags": [
+      {
+        "name": "@iphone",
+        "line": 1
+      },
+      {
+        "name": "@AP00",
+        "line": 1
+      }
+    ],
+    "uri": "features/testIphone/testIphone.feature"
+  },
+  {
+    "description": "    Try cucumber with detox",
+    "elements": [
+      {
+        "description": "",
+        "id": "skip---initial-cucumber-test;skip---test-cucumber",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Skip - Test Cucumber",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am login as 'ULP_AGENT'",
+            "match": {
+              "location": "step_definitions/common/given.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@ipad",
+            "line": 1
+          },
+          {
+            "name": "@skip",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "skip---initial-cucumber-test;skip---test-cucumber---2",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Skip - Test Cucumber - 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "step_definitions/common/given.js:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "step_definitions/common/then.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@ipad",
+            "line": 1
+          },
+          {
+            "name": "@skip",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "skip---initial-cucumber-test;skip---test-cucumber---3",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Skip - Test Cucumber - 3",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I should see the \"welcome\" element",
+            "match": {
+              "location": "step_definitions/common/given.js:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see the \"Open up App.js to start working on your app!\" text",
+            "match": {
+              "location": "step_definitions/common/then.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iphone",
+            "line": 1
+          },
+          {
+            "name": "@ipad",
+            "line": 1
+          },
+          {
+            "name": "@skip",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "skip---initial-cucumber-test",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Skip - Initial Cucumber Test",
+    "tags": [
+      {
+        "name": "@iphone",
+        "line": 1
+      },
+      {
+        "name": "@ipad",
+        "line": 1
+      },
+      {
+        "name": "@skip",
+        "line": 1
+      }
+    ],
+    "uri": "features/testSkip/testSkip.feature"
+  }
+]
